@@ -1,0 +1,41 @@
+
+*PT-BR*
+
+Rota = conjunto
+Recurso = usuário
+
+Métodos HTTP = GET, POST, PUT, DELETE
+Parâmetros = Query Params, Route Params, Body
+
+GET = Buscar uma informação (Lista, Item)
+POST = Criando uma informação
+PUT = Editando uma informação
+DELETE = Deletando uma informação
+
+Query Params: http:localhost:9999/users?search=felina Usado para filtro, paginação, busca
+Route Params: http:localhost:9999/users/1 (Identficar um recurso)
+Body: http:localhost:9999/users (Identficar um recurso)
+
+
+Driver nativo, Query Builder, ORM
+Driver nativo: Permite executar as querys direto no Node mas não possui nenhum tipo de abstração.
+Query Builder: Segundo nível de abstração. Constrói querys com uma sintaxe mais amigável.
+ORM: Nível de abstração maior possível. Uma classe simboliza uma tabela no banco de dados.
+
+
+UP E DOWN 
+   public async up(queryRunner: QueryRunner): Promise<void> {
+        //REALIZAR ALTERAÇÕES
+        //CRIAR TABELA, CRIAR UM NOVO CAMPO, DELETAR ALGUM CAMPO
+    }
+
+    public async down(queryRunner: QueryRunner): Promise<void> {
+        //DESFAZER O QUE FOI FEITO (UP)
+    }
+
+MVC
+
+MODEL = REPRESENTATIVIDADE DE UMA ENTIDADE NA APLICAÇÃO (EX: DADO DE USUÁRIO)
+VIEWS = COMO AS COISAS SÃO VISUALIZADAS
+CONTROLLERS = LÓGICA DE ROTAS
+

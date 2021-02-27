@@ -1,4 +1,12 @@
-<img src="https://github.com/hos4na/happy-nlw0.3/blob/main/happy.png" width="300"/>
+## Happy 
+
+<h1 align="center">
+  <img src="https://github.com/hos4na/happy-nlw0.3/blob/main/happy.png" width="300"/>
+ </h1>
+
+<p align="center">
+  <img alt="Made by Hosana Barcelos" src="https://img.shields.io/badge/made%20by- HOSANA BARCELOS -%15C3D6?style=flat-square&color=29B6D1&labelColor=000"><br/>
+</p>
 
 Com o **Happy** é possível realizar um cadastro para o orfanato, com a localização exata e suas informações. Assim, fica mais fácil localizar-se e manter-se informado para realizar visitas à orfanatos próximos.
 

@@ -33,3 +33,5 @@ Visualizando orfanatos cadastrados no mapa e detalhes do orfanato selecionado pe
 Selecionando ponto fixo para cadastrar o orfanato:
 
 <img src="https://github.com/hos4na/happy-nlw0.3/blob/main/mobile-select.png" width="150"/> <img src="https://github.com/hos4na/happy-nlw0.3/blob/main/mobile-create1.png" width="150"/> <img src="https://github.com/hos4na/happy-nlw0.3/blob/main/mobile-create2.png" width="150"/>
+
+Feito com :yellow_heart: by [Hosana Barcelos](https://github.com/hosanabarcelos).
